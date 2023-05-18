@@ -1,1 +1,83 @@
-
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(229,229,253);
+    border: 10px solid rgb(29,30,76);
+}
+img{
+    width: 20vw;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+main{
+    display: inline-block;
+    border: 10px solid blueviolet;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 12vh;
+    min-height: 100vh;
+}
+.name{
+    padding-top: 25px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 5.625rem;
+    color: rgb(29,30,76);
+    /* font-style: bold; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+.content{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    line-height: 35px;
+    padding-top: 20px;
+    color: rgb(26, 27, 76);
+    /* border: 1px solid black; */
+}
+.heading{
+    padding-top: 15px;
+    /* text-align: center; */
+    /* font-family: 'Felipa', cursive; */
+    /* font-family: 'Jim Nightshade', cursive; */
+    font-family: 'Carattere', cursive;
+    /* font-family: 'Alex Brush', cursive;  */
+    font-size: 5rem;
+    color: rgb(29,30,76);
+    /* border: 1px solid black; */
+}
+.games{
+    padding-top: 50px ;
+    
+    font-size: 1.95rem;
+    /* border: 1px solid black; */
+}
+.games li{
+    list-style: none;
+}
+    
+.tem{
+    display: inline-block;
+}
+.mega{
+    /* display: inline-block; */
+    position: relative;
+    /* border: 1px solid black; */
+}
+.title{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    color: rgb(26, 27, 76);;
+    /* color: wheat; */
+    text-align: end;
+    font-size: 35px;
+}
